@@ -8,7 +8,8 @@ public class Main {
 
         //Tarea1executable.parte2();
         //Tarea2executable.parte1();
-        Tarea2executable.parte2();
+        //Tarea2executable.parte2();
+        Tarea2executable.parte3();
 
     }
 }

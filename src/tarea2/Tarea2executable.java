@@ -3,6 +3,7 @@ package tarea2;
 
 import static tarea2.parte1.primeraParte.*;
 import static tarea2.parte2.segundaParte.*;
+import static tarea2.parte3.terceraParte.*;
 
 public class Tarea2executable {
     public static void parte1() {
@@ -50,10 +51,15 @@ public class Tarea2executable {
         System.out.println("-----");
         System.out.println("-- PARTE 2 - EJERCICIO 4 --");
         long diferencia = tiempoSinBuffer - tiempoConBuffer;
-        System.out.println("La ventaja de tiempo al usar búffer es: " + diferencia + " ms."
+        System.out.println("La ventaja de tiempo al usar búffer es: " + diferencia + " ms." // // Tiempos de velocidad con/sin BufferedStream
         );
         System.out.println("-----");
-
-
+    }
+    public static void parte3(){
+        System.out.println("-----");
+        System.out.println("-- PARTE 3 - EJERCICIO 1 --");
+        String ruta11 = "/home/accesodatos/IdeaProjects/AD_2026_2027/src/tarea2/parte3/texto3";
+        // Uso de Data(Input/Output)Stream para trabajar con datos primitivos de java (int, double, boolean, char, etc) traducidos a formato binario.
+        DataIO(ruta11);
     }
 }
