@@ -35,7 +35,7 @@ public class terceraParte {
             BufferedInputStream bis = new BufferedInputStream(fis); // Lo envuelvo en un búffer de memoria RAM para mejorar la velocidad
             DataInputStream dis = new DataInputStream(bis); // Para leer datos primitivos y cadenas UTF en formato binario
 
-            while (dis.available()>0){ // available -> Devuelve un valor 0, si ya se leyeron todos bytes del ficheiro
+            while (dis.available()>0){ // método available -> Devuelve un valor 0, si ya se leyeron todos bytes del ficheiro
                 System.out.println("Quedan: " + dis.available() + " bytes por leer."); // Para indicar cuátos bytes quedan en el flujo
                 String cadenaAleer = dis.readUTF(); // Leo la cadena de texto en formato UTF-8
                 System.out.println("cadea: " + cadenaAleer);

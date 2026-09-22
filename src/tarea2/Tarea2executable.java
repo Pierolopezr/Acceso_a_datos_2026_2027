@@ -51,8 +51,8 @@ public class Tarea2executable {
         System.out.println("-----");
         System.out.println("-- PARTE 2 - EJERCICIO 4 --");
         long diferencia = tiempoSinBuffer - tiempoConBuffer;
-        System.out.println("La ventaja de tiempo al usar búffer es: " + diferencia + " ms." // // Tiempos de velocidad con/sin BufferedStream
-        );
+        System.out.println("La ventaja de tiempo al usar búffer es: " + diferencia + " ms." ); // Tiempos de velocidad con/sin BufferedStream
+
         System.out.println("-----");
     }
     public static void parte3(){
