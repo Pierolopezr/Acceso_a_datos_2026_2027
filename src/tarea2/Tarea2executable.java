@@ -58,7 +58,7 @@ public class Tarea2executable {
     public static void parte3(){
         System.out.println("-----");
         System.out.println("-- PARTE 3 - EJERCICIO 1 --");
-        String ruta11 = "/home/accesodatos/IdeaProjects/AD_2026_2027/src/tarea2/parte3/texto3";
+        String ruta11 = "/home/accesodatos/IdeaProjects/AD_2026_2027/src/tarea2/parte3/texto3.txt";
         // Uso de Data(Input/Output)Stream para trabajar con datos primitivos de java (int, double, boolean, char, etc) traducidos a formato binario.
         DataIO(ruta11);
     }
